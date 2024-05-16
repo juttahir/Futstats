@@ -33,3 +33,6 @@
     opacity: 1;
 }
 
+.data img{
+    max-width: 8rem;
+}

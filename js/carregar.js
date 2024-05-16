@@ -43,7 +43,7 @@ function ItemJogador(jogador) {
                         <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
                     </svg>
                     ${jogador.gols} gols
-                    <button onClick="somarGol('${jogador.id}')" class="outline sm">
+                    <button onClick="subtrairGol('${jogador.id}')" class="outline sm">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-minus">
@@ -51,7 +51,7 @@ function ItemJogador(jogador) {
                         </svg>
                     </button>
 
-                    <button onClick="subtrairGol('${jogador.id}')" class="outline sm">
+                    <button onClick="somarGol('${jogador.id}')" class="outline sm">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-plus">
@@ -74,7 +74,7 @@ function ItemJogador(jogador) {
                     </svg>
                     ${jogador.assistencias} assistências
 
-                    <button onClick="somarAssistencia('${jogador.id}')" class="outline sm">
+                    <button onClick="subtrairAssistencia('${jogador.id}')" class="outline sm">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-minus">
@@ -82,7 +82,7 @@ function ItemJogador(jogador) {
                         </svg>
                     </button>
 
-                    <button onClick="subtrairAssistencia('${jogador.id}')" class="outline sm">
+                    <button onClick="somarAssistencia('${jogador.id}')" class="outline sm">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="lucide lucide-plus">
